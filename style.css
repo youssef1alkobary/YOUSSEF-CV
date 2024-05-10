@@ -1,0 +1,251 @@
+body {
+    background-color: #111;
+}
+
+.container {
+    margin: 25px;
+    color: #fff;
+}
+
+.container .navbarTitle h1 i{
+    color: #c5b900;
+}
+
+.container .navbarTitle h1 {
+    font-family: jaro /*Roboto*/;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.container .navbarTitle i {
+    display: none;
+}
+.container .navbarList #menuX {
+    display: none;
+}
+
+.container .navbarList ul {
+    display: flex;
+    float: right;
+    margin-top: -50px;
+    margin-right: 105px;
+}
+
+.container .navbarList ul li {
+    padding-right: 27px;
+    list-style-type: none;
+    font-family: 'Jaro';
+    cursor: pointer;
+    transition: 0.4s;
+    font-size: 22px;
+}
+
+
+.container .navbarList ul li:hover {
+    color: #c5b900;
+}
+
+.container .navbarSearch #Search {
+    margin-top: 8px;
+    height: 25px;
+    width: 165px;
+    border-radius: 30px;
+    padding-left: 30px;
+    color: #979393;
+    background-color: #00000094;
+    border: 1px solid #bbb;
+}
+
+.container .navbarSearch i {
+    font-size: 19px;
+    color: #909090;
+    margin-left: 15px;
+    cursor: pointer;
+} 
+
+
+#btn {
+    margin-left: 100px;
+    font-size: 25px;
+    padding: 7px 23px;
+    border-radius: 7px;
+    background-color: #c5b900;
+    color: #2c2c2c;
+    border: 1px solid #2c2c2c;
+    font-family: Jaro;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+#btn:hover {
+    background-color: #c5b800b3;
+}
+
+#about {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+#about:hover {
+    color: #c5b900;
+}
+
+#project {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+#project:hover {
+    color: #c5b900;
+}
+
+#hr {
+    background: #fff;
+    width: 100%;
+    height: 1px;
+}
+
+.websiteBackground img {
+    width: 270px;
+    float: right;
+    margin-right: 215px;
+    border-radius: 50%;
+    margin-top: 45px;
+    transition: 0.4s;
+}
+
+.websiteBackground img:hover {
+    cursor: pointer;
+    box-shadow: 0 0 20px #c5b900;
+}
+
+.websiteTitle {
+    padding-top: 30px;
+}
+
+
+.websiteTitle h2 {
+    color: #fff;
+    margin-left: 100px;
+    font-size: 60px;
+    font-family: Jaro;
+    font-weight: 200;
+}
+
+.websiteTitle p {
+    color: #fff;
+    margin-left: 101px;
+    margin-top: -50px;
+    font-family: Jaro;
+    font-weight: 100;
+}
+
+.websiteTitle p span {
+    color: #c5b900;
+    /* font-weight: 700; */
+}
+
+.icons {
+    margin-left: 175px;
+    margin-top: 30px;
+    font-size: 21px;
+}
+
+.icons i {
+    color: #fff;
+    padding-left: 6px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.icons i:hover {
+    color: #c5b900;
+}
+
+.copyright p {
+    color: #111;
+    font-family: auto;
+    font-size: 20px;
+    background: aliceblue;
+    font-weight: 600;
+    /* margin-bottom: 0; */
+    text-align: center;
+    /* margin-top: 210px; */
+}
+
+@media screen and (max-width: 600px) {
+    #hr {
+        display: none;
+    }
+    .websiteBackground img {
+        display: none;
+    }
+    .websiteTitle h2 {
+        color: #fff;
+        margin-left: 30px;
+        font-size: 50px;
+        font-family: Jaro;
+        line-height: 65px;
+        font-weight: 200;
+    }
+    .websiteTitle p {
+        color: #fff;
+        margin-left: 31px;
+        margin-top: -50px;
+        font-family: Jaro;
+        font-weight: 100;
+    }
+    #btn {
+        margin-left: 30px;
+        font-size: 20px;
+        padding: 7px 23px;
+        border-radius: 7px;
+        background-color: #c5b900;
+        color: #2c2c2c;
+        border: 1px solid #2c2c2c;
+        font-family: Jaro;
+        transition: 0.4s;
+        cursor: pointer;
+    }    
+    .container .navbarTitle i {
+        display: block;
+        font-size: 23px;
+        float: right;
+        margin-top: -50px;
+    }
+    .container .navbarList #menuX {
+        display: none;
+        font-size: 30px;
+        float: right;
+        margin-top: -50px;
+        position: relative;
+        margin-right: 35px;
+    }
+    .container .navbarList ul {
+        display: none;
+        background-color: #111;
+        line-height: 64px;
+        margin-top: -87px;
+        position: absolute;
+        height: 101%;
+        float: right;
+        padding-top: 82px;
+        margin-left: -33px;
+        width: 90%;
+        text-align: center;
+    }
+    #check:checked ~ .container .navbarList ul {
+        top: 0;
+    }
+    .container .navbarList ul li {
+        padding-right: 27px;
+        list-style-type: none;
+        font-family: 'Jaro';
+        cursor: pointer;
+        transition: 0.4s;
+        font-size: 50px;
+        line-height: 100px;
+    }
+}
