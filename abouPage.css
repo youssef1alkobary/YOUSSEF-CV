@@ -20,7 +20,7 @@ body {
 .container .navbarTitle i {
     display: none;
 }
-.container .navbarList #menuX {
+.container .navbarTitle #menuX {
     display: none;
 }
 
@@ -290,7 +290,7 @@ section {
         font-size: 23px;
         float: right;
         margin-top: -40px;
-        margin-right: -80px;
+        margin-right: -60px;
     }
     .container .navbarList #menuX {
         display: none;
@@ -301,18 +301,19 @@ section {
         margin-right: 35px;
     }
     .container .navbarList ul {
-        display: none;
+        display: block;
         background-color: #111;
         line-height: 64px;
-        margin-top: -87px;
+        margin-top: 50px;
         position: absolute;
-        height: 101%;
         float: right;
         padding-top: 155px;
-        height: 108%;
-        margin-left: -255px;
-        width: 90%;
+        height: 90%;
+        margin-left: -640px;
+        width: 100%;
         text-align: center;
+        transition: 0.4s;
+        padding-top: 50px;
     }
     .container .navbarList ul li {
         padding-right: 27px;
@@ -320,8 +321,10 @@ section {
         font-family: 'Jaro';
         cursor: pointer;
         transition: 0.4s;
-        font-size: 50px;
-        line-height: 100px;
+        font-size: 40px;
+        line-height: 60px;
+        text-align: left;
+        margin-left: 45px;
     }
     .youssefIamge img {
         display: none;
@@ -332,13 +335,13 @@ section {
     .container .description h2 {
         margin-left: 34px;
         padding-top: 10px;
-        font-size: 35px;
+        font-size: 31px;
         font-family: jaro;
         font-weight: 300;
     }
     .container .description p {
         font-family: Quicksand;
-        width: 328px;
+        width: 290px;
         margin-left: 37px;
         margin-top: 0;
     }
