@@ -28,7 +28,7 @@ body {
     display: flex;
     float: right;
     margin-top: -50px;
-    margin-right: 105px;
+    margin-right: 165px;
 }
 
 .container .navbarList ul li {
@@ -103,8 +103,10 @@ body {
 
 #hr {
     background: #fff;
-    width: 100%;
+    width: 101%;
     height: 1px;
+    margin-top: 35px;
+    margin-left: -6px;
 }
 
 .websiteBackground img {
