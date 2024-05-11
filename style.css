@@ -15,8 +15,9 @@ body {
     font-family: jaro /*Roboto*/;
     font-weight: 400;
     font-size: 30px;
+    margin-left: 7px;
+    margin-top: 0;
 }
-
 .container .navbarTitle i {
     display: none;
 }
@@ -27,8 +28,8 @@ body {
 .container .navbarList ul {
     display: flex;
     float: right;
-    margin-top: -50px;
-    margin-right: 165px;
+    margin-top: -54px;
+    margin-right: 166px;
 }
 
 .container .navbarList ul li {
@@ -105,7 +106,7 @@ body {
     background: #fff;
     width: 101%;
     height: 1px;
-    margin-top: 45px;
+    margin-top: 37px;
     margin-left: -6px;
 }
 
